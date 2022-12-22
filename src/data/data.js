@@ -1,4 +1,4 @@
-import { camp1, Suswa1 } from "../images";
+import { camp1, Suswa1,Magadi1,naivasha,castle1,abadare} from "../images";
 
 export const allCamps = [
   {
@@ -15,7 +15,7 @@ export const allCamps = [
   {
     name: "Lake Magadi",
     id: 2,
-    image: camp1,
+    image: Magadi1,
     titleDelay: 300,
     detailDelay: 500,
     lat: -0.772612,
@@ -26,7 +26,7 @@ export const allCamps = [
   {
     name: "Lake Naivasha",
     id: 3,
-    image: camp1,
+    image: naivasha,
     titleDelay: 300,
     detailDelay: 500,
     lat: -0.772612,
@@ -37,7 +37,7 @@ export const allCamps = [
   {
     name: "Castle Forest",
     id: 4,
-    image: camp1,
+    image: castle1,
     titleDelay: 300,
     detailDelay: 500,
     lat: -0.772612,
@@ -48,7 +48,7 @@ export const allCamps = [
   {
     name: "Abedares",
     id: 5,
-    image: camp1,
+    image: abadare,
     titleDelay: 300,
     detailDelay: 500,
     lat: -0.772612,
