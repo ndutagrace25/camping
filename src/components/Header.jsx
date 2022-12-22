@@ -9,7 +9,7 @@ const Header = () => {
           style={{ fontFamily: "Carviar Dreams Bold" }}
           className="header-text"
         >
-          <Bounce delay={300}>21 Best Camping Places in Kenya</Bounce>
+          <Bounce delay={300}>20 Best Adventurous Places in Kenya</Bounce>
         </div>
       </div>
     </section>
