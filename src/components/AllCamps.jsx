@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { camp1 } from "../images";
 import Fade from "react-reveal/Fade";
+import { Link } from "react-router-dom";
 
 const AllCamps = () => {
   const [titleColor, setTitleColor] = useState("text-black");
@@ -203,18 +204,20 @@ const AllCamps = () => {
       <div>
         <div className="d-flex justify-content-center py-5">
           <Fade delay={item.titleDelay} bottom>
-            <h5
-              style={{ fontFamily: "Carviar Dreams Bold", cursor: "pointer" }}
-              className={item.id === activeId ? titleColor : ""}
-              onMouseEnter={() => {
-                setTitleColor("text-info");
-                setActiveId(item.id);
-              }}
-              onMouseLeave={() => setTitleColor("text-black")}
-            >
-              <span>{item.id}. </span>
-              {item.name}
-            </h5>
+            <Link to="/camp-details">
+              <h5
+                style={{ fontFamily: "Carviar Dreams Bold", cursor: "pointer" }}
+                className={item.id === activeId ? titleColor : ""}
+                onMouseEnter={() => {
+                  setTitleColor("text-info");
+                  setActiveId(item.id);
+                }}
+                onMouseLeave={() => setTitleColor("text-black")}
+              >
+                <span>{item.id}. </span>
+                {item.name}
+              </h5>
+            </Link>
           </Fade>
         </div>
         <div className="d-flex justify-content-between camp-card">
@@ -230,9 +233,12 @@ const AllCamps = () => {
             <div className="col-md-6 pt-2">
               <div>{item.details}</div>
               <div className="mt-3 d-flex justify-content-center">
-                <button className="btn-info btn fw-bold shadow">
+                <Link
+                  className="btn-info btn fw-bold shadow"
+                  to="/camp-details"
+                >
                   View Activites and Locations at {item.name}
-                </button>
+                </Link>
               </div>
             </div>
           </Fade>
