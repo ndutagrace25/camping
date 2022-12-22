@@ -1,5 +1,5 @@
 import React from "react";
-import { Home } from "./components";
+import { Home, CampDetails } from "./components";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -11,6 +11,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/camp-details" element={<CampDetails />} />
       </Routes>
     </Router>
   );

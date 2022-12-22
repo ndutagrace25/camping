@@ -4,11 +4,11 @@ import { Header, Intro, AllCamps } from ".";
 
 const Home = () => {
   return (
-    <div className="container home">
+    <div className="container-fluid home">
       <Navbar />
       <Header />
       <div
-        className="shadow p-3 text-black bg-white intro fw-normal intro-text "
+        className="shadow p-3 text-black bg-white intro fw-normal intro-text"
         style={{ fontFamily: "Carviar Dreams" }}
       >
         <Intro />
