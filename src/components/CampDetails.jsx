@@ -35,8 +35,8 @@ const CampDetails = (props) => {
     <div className="home container-fluid">
       <Navbar />
       <div style={{ height: "500px", width: "100%" }}>
-        {/* <GoogleMapReact
-          bootstrapURLKeys={{ key: "AIzaSyBj5ktCVyiIpMmxZMBrUcJ-VnpC_3kKP90" }}
+        <GoogleMapReact
+          bootstrapURLKeys={{ key: "AIzaSyBDgj6Va4JpcLr3I8cnL-Gqwd6qOSU7iSM" }}
           defaultCenter={defaultProps.center}
           defaultZoom={defaultProps.zoom}
         >
@@ -45,7 +45,7 @@ const CampDetails = (props) => {
             lng={currentCamp.lon}
             text={currentCamp.name}
           />
-        </GoogleMapReact> */}
+        </GoogleMapReact>
       </div>
       <div>{currentCamp.name}</div>
     </div>
