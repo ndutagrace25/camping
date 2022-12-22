@@ -1,17 +1,35 @@
 import React from "react";
 import { Navbar } from "../common";
 import GoogleMapReact from "google-map-react";
+import { allCamps } from "../data/data";
+import queryString from "query-string";
+import { useLocation } from "react-router-dom";
 
-const CampDetails = () => {
+const CampDetails = (props) => {
+  const cutrrentId = queryString.parse(useLocation().search);
+
+  const currentCamp = allCamps.filter(
+    (item) => item.id === parseInt(cutrrentId.id)
+  )[0];
+
   const defaultProps = {
     center: {
-      lat: 0.04622,
-      lng: 36.932859,
+      lat: currentCamp.lat,
+      lng: currentCamp.lon,
     },
-    zoom: 11,
+    zoom: 12,
   };
 
-  const AnyReactComponent = ({ text }) => <div>{text}</div>;
+  const AnyReactComponent = ({ text }) => (
+    <div
+      onClick={() => alert("Hey there")}
+      className="p-3 fw-bold"
+      style={{ fontFamily: "Carviar Dreams", fontSize: "12px" }}
+    >
+      <i className="fa-solid fa-location-pin text-danger fa-2x"></i>
+      <span className="text-primary">{text}</span>
+    </div>
+  );
 
   return (
     <div className="home container-fluid">
@@ -22,9 +40,14 @@ const CampDetails = () => {
           defaultCenter={defaultProps.center}
           defaultZoom={defaultProps.zoom}
         >
-          <AnyReactComponent lat={0.04622} lng={36.932859} text="My Marker" />
+          <AnyReactComponent
+            lat={currentCamp.lat}
+            lng={currentCamp.lon}
+            text={currentCamp.name}
+          />
         </GoogleMapReact>
       </div>
+      <div>{currentCamp.name}</div>
     </div>
   );
 };

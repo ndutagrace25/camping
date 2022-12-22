@@ -1,0 +1,235 @@
+import { camp1 } from "../images";
+
+export const allCamps = [
+  {
+    name: "Kiboko Luxury Camp",
+    id: 1,
+    image: camp1,
+    titleDelay: 300,
+    detailDelay: 500,
+    lat: -0.772612,
+    lon: 36.4165486,
+    details:
+      "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
+  },
+  {
+    name: "Camp 2",
+    id: 2,
+    image: camp1,
+    titleDelay: 300,
+    detailDelay: 500,
+    lat: -0.772612,
+    lon: 36.4165486,
+    details:
+      "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
+  },
+  {
+    name: "Camp 3",
+    id: 3,
+    image: camp1,
+    titleDelay: 300,
+    detailDelay: 500,
+    lat: -0.772612,
+    lon: 36.4165486,
+    details:
+      "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
+  },
+  {
+    name: "Camp 4",
+    id: 4,
+    image: camp1,
+    titleDelay: 300,
+    detailDelay: 500,
+    lat: -0.772612,
+    lon: 36.4165486,
+    details:
+      "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
+  },
+  {
+    name: "Camp 5",
+    id: 5,
+    image: camp1,
+    titleDelay: 300,
+    detailDelay: 500,
+    lat: -0.772612,
+    lon: 36.4165486,
+    details:
+      "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
+  },
+  {
+    name: "Camp 6",
+    id: 6,
+    image: camp1,
+    titleDelay: 300,
+    detailDelay: 500,
+    lat: -0.772612,
+    lon: 36.4165486,
+    details:
+      "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
+  },
+  {
+    name: "Camp 7",
+    id: 7,
+    image: camp1,
+    titleDelay: 300,
+    detailDelay: 500,
+    lat: -0.772612,
+    lon: 36.4165486,
+    details:
+      "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
+  },
+  {
+    name: "Camp 8",
+    id: 8,
+    image: camp1,
+    titleDelay: 300,
+    detailDelay: 500,
+    lat: -0.772612,
+    lon: 36.4165486,
+    details:
+      "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
+  },
+  {
+    name: "Camp 9",
+    id: 9,
+    image: camp1,
+    titleDelay: 300,
+    detailDelay: 500,
+    lat: -0.772612,
+    lon: 36.4165486,
+    details:
+      "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
+  },
+  {
+    name: "Camp 10",
+    id: 10,
+    image: camp1,
+    titleDelay: 300,
+    detailDelay: 500,
+    lat: -0.772612,
+    lon: 36.4165486,
+    details:
+      "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
+  },
+  {
+    name: "Camp 11",
+    id: 11,
+    image: camp1,
+    titleDelay: 300,
+    detailDelay: 500,
+    lat: -0.772612,
+    lon: 36.4165486,
+    details:
+      "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
+  },
+  {
+    name: "Camp 12",
+    id: 12,
+    image: camp1,
+    titleDelay: 300,
+    detailDelay: 500,
+    lat: -0.772612,
+    lon: 36.4165486,
+    details:
+      "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
+  },
+  {
+    name: "Camp 13",
+    id: 13,
+    image: camp1,
+    titleDelay: 300,
+    detailDelay: 500,
+    lat: -0.772612,
+    lon: 36.4165486,
+    details:
+      "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
+  },
+  {
+    name: "Camp 14",
+    id: 14,
+    image: camp1,
+    titleDelay: 300,
+    detailDelay: 500,
+    lat: -0.772612,
+    lon: 36.4165486,
+    details:
+      "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
+  },
+  {
+    name: "Camp 15",
+    id: 15,
+    image: camp1,
+    titleDelay: 300,
+    detailDelay: 500,
+    lat: -0.772612,
+    lon: 36.4165486,
+    details:
+      "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
+  },
+  {
+    name: "Camp 16",
+    id: 16,
+    image: camp1,
+    titleDelay: 300,
+    detailDelay: 500,
+    lat: -0.772612,
+    lon: 36.4165486,
+    details:
+      "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
+  },
+  {
+    name: "Camp 17",
+    id: 17,
+    image: camp1,
+    titleDelay: 300,
+    detailDelay: 500,
+    lat: -0.772612,
+    lon: 36.4165486,
+    details:
+      "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
+  },
+  {
+    name: "Camp 18",
+    id: 18,
+    image: camp1,
+    titleDelay: 300,
+    detailDelay: 500,
+    lat: -0.772612,
+    lon: 36.4165486,
+    details:
+      "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
+  },
+  {
+    name: "Camp 19",
+    id: 19,
+    image: camp1,
+    titleDelay: 300,
+    detailDelay: 500,
+    lat: -0.772612,
+    lon: 36.4165486,
+    details:
+      "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
+  },
+  {
+    name: "Camp 20",
+    id: 20,
+    image: camp1,
+    titleDelay: 300,
+    detailDelay: 500,
+    lat: -0.772612,
+    lon: 36.4165486,
+    details:
+      "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
+  },
+  {
+    name: "Camp 21",
+    id: 21,
+    image: camp1,
+    titleDelay: 300,
+    detailDelay: 500,
+    lat: -0.772612,
+    lon: 36.4165486,
+    details:
+      "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
+  },
+];
