@@ -1,10 +1,10 @@
-import { camp1 } from "../images";
+import { camp1, Suswa1 } from "../images";
 
 export const allCamps = [
   {
     name: "Suswa",
     id: 1,
-    image: camp1,
+    image: Suswa1,
     titleDelay: 300,
     detailDelay: 500,
     lat: -0.772612,
