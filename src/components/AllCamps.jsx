@@ -29,27 +29,77 @@ const AllCamps = () => {
           </Fade>
         </div>
         <div className="d-flex justify-content-between camp-card">
-          <Fade left delay={400}>
-            <img
-              alt={item.name}
-              src={item.image}
-              className="img-fluid col-md-5 rounded"
-            />
-          </Fade>
+          <div className="mobile-view">
+            <Fade left delay={400}>
+              <img
+                alt={item.name}
+                src={item.image}
+                className="img-fluid col-md-5 rounded"
+              />
+            </Fade>
 
-          <Fade delay={item.detailDelay} bottom>
-            <div className="col-md-6 pt-2">
-              <div>{item.details}</div>
-              <div className="mt-3 d-flex justify-content-center">
-                <Link
-                  className="btn-info btn fw-bold shadow"
-                  to={`/camp-details?id=${item.id}`}
-                >
-                  View Activites and Locations at {item.name}
-                </Link>
+            <Fade delay={item.detailDelay} bottom>
+              <div className="col-md-6 pt-2">
+                <div>{item.details}</div>
+                <div className="mt-3 d-flex justify-content-center">
+                  <Link
+                    className="btn-info btn fw-bold shadow"
+                    to={`/camp-details?id=${item.id}`}
+                  >
+                    View Activites and Locations at {item.name}
+                  </Link>
+                </div>
               </div>
-            </div>
-          </Fade>
+            </Fade>
+          </div>
+          {parseInt(item.id) & 1 ? (
+            <>
+              <Fade left delay={400}>
+                <img
+                  alt={item.name}
+                  src={item.image}
+                  className="img-fluid col-md-5 rounded desktop-view"
+                />
+              </Fade>
+
+              <Fade delay={item.detailDelay} bottom>
+                <div className="col-md-6 pt-2 desktop-view">
+                  <div>{item.details}</div>
+                  <div className="mt-3 d-flex justify-content-center">
+                    <Link
+                      className="btn-info btn fw-bold shadow"
+                      to={`/camp-details?id=${item.id}`}
+                    >
+                      View Activites and Locations at {item.name}
+                    </Link>
+                  </div>
+                </div>
+              </Fade>
+            </>
+          ) : (
+            <>
+              <Fade delay={item.detailDelay} bottom>
+                <div className="col-md-6 pt-2 desktop-view">
+                  <div>{item.details}</div>
+                  <div className="mt-3 d-flex justify-content-center">
+                    <Link
+                      className="btn-info btn fw-bold shadow"
+                      to={`/camp-details?id=${item.id}`}
+                    >
+                      View Activites and Locations at {item.name}
+                    </Link>
+                  </div>
+                </div>
+              </Fade>
+              <Fade left delay={400}>
+                <img
+                  alt={item.name}
+                  src={item.image}
+                  className="img-fluid col-md-5 rounded desktop-view"
+                />
+              </Fade>
+            </>
+          )}
         </div>
       </div>
     );

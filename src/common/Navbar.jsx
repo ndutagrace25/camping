@@ -10,7 +10,7 @@ const Navbar = () => {
           to="/"
           style={{ fontFamily: "Carviar Dreams Bold" }}
         >
-          Camping
+          JJ Adventures
         </Link>
         <button
           className="navbar-toggler"

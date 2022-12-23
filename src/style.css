@@ -36,6 +36,14 @@ a {
   color: black !;
 }
 
+.mobile-view {
+  display: none;
+}
+
+.desktop-view {
+  display: block;
+}
+
 @media only screen and (max-width: 480px) {
   .header-bg {
     height: 200px;
@@ -47,7 +55,7 @@ a {
     padding: 0 !important;
   }
   .header-text {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 25px;
   }
   .intro-text {
@@ -65,5 +73,13 @@ a {
 
   .btn {
     font-size: 13px;
+  }
+
+  .mobile-view {
+    display: block;
+  }
+
+  .desktop-view {
+    display: none;
   }
 }
