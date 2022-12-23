@@ -47,7 +47,15 @@ const CampDetails = (props) => {
           />
         </GoogleMapReact>
       </div>
-      <div>{currentCamp.name}</div>
+      <div>
+        Get directions to {currentCamp.name}
+        <a
+          href={`https://www.google.com/maps/search/?api=1&query=${currentCamp.lat},${currentCamp.lon}`}
+          target="_blank"
+          className="fas fa-external-link-alt text-primary fa-lg ms-2"
+          style={{ cursor: "pointer" }}
+        ></a>
+      </div>
     </div>
   );
 };
