@@ -1,4 +1,4 @@
-import { camp1, Suswa1,Magadi1,naivasha,castle1,abadare} from "../images";
+import { camp1, Suswa1, Magadi1, naivasha, castle1, abadare } from "../images";
 
 export const allCamps = [
   {
@@ -9,6 +9,15 @@ export const allCamps = [
     detailDelay: 500,
     lat: -1.176141,
     lon: 36.3401126,
+    activites: [
+      { name: "Hiking" },
+      { name: "Camping" },
+      { name: "Cave Exploration" },
+      { name: "Manyattas and hot springs" },
+      { name: "Game viewing" },
+      { name: "Mount Suswa conservancy" },
+      { name: "Suswa ranch resort" },
+    ],
     details:
       "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
   },
@@ -20,6 +29,15 @@ export const allCamps = [
     detailDelay: 500,
     lat: -0.772612,
     lon: 36.4165486,
+    activites: [
+      { name: "Hiking" },
+      { name: "Camping" },
+      { name: "Cave Exploration" },
+      { name: "Manyattas and hot springs" },
+      { name: "Game viewing" },
+      { name: "Mount Suswa conservancy" },
+      { name: "Suswa ranch resort" },
+    ],
     details:
       "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
   },
@@ -31,6 +49,15 @@ export const allCamps = [
     detailDelay: 500,
     lat: -0.772612,
     lon: 36.4165486,
+    activites: [
+      { name: "Hiking" },
+      { name: "Camping" },
+      { name: "Cave Exploration" },
+      { name: "Manyattas and hot springs" },
+      { name: "Game viewing" },
+      { name: "Mount Suswa conservancy" },
+      { name: "Suswa ranch resort" },
+    ],
     details:
       "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
   },
@@ -42,6 +69,15 @@ export const allCamps = [
     detailDelay: 500,
     lat: -0.772612,
     lon: 36.4165486,
+    activites: [
+      { name: "Hiking" },
+      { name: "Camping" },
+      { name: "Cave Exploration" },
+      { name: "Manyattas and hot springs" },
+      { name: "Game viewing" },
+      { name: "Mount Suswa conservancy" },
+      { name: "Suswa ranch resort" },
+    ],
     details:
       "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
   },
@@ -53,6 +89,15 @@ export const allCamps = [
     detailDelay: 500,
     lat: -0.772612,
     lon: 36.4165486,
+    activites: [
+      { name: "Hiking" },
+      { name: "Camping" },
+      { name: "Cave Exploration" },
+      { name: "Manyattas and hot springs" },
+      { name: "Game viewing" },
+      { name: "Mount Suswa conservancy" },
+      { name: "Suswa ranch resort" },
+    ],
     details:
       "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
   },
@@ -64,6 +109,15 @@ export const allCamps = [
     detailDelay: 500,
     lat: -0.772612,
     lon: 36.4165486,
+    activites: [
+      { name: "Hiking" },
+      { name: "Camping" },
+      { name: "Cave Exploration" },
+      { name: "Manyattas and hot springs" },
+      { name: "Game viewing" },
+      { name: "Mount Suswa conservancy" },
+      { name: "Suswa ranch resort" },
+    ],
     details:
       "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
   },
@@ -75,6 +129,15 @@ export const allCamps = [
     detailDelay: 500,
     lat: -0.772612,
     lon: 36.4165486,
+    activites: [
+      { name: "Hiking" },
+      { name: "Camping" },
+      { name: "Cave Exploration" },
+      { name: "Manyattas and hot springs" },
+      { name: "Game viewing" },
+      { name: "Mount Suswa conservancy" },
+      { name: "Suswa ranch resort" },
+    ],
     details:
       "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
   },
@@ -86,6 +149,15 @@ export const allCamps = [
     detailDelay: 500,
     lat: -0.772612,
     lon: 36.4165486,
+    activites: [
+      { name: "Hiking" },
+      { name: "Camping" },
+      { name: "Cave Exploration" },
+      { name: "Manyattas and hot springs" },
+      { name: "Game viewing" },
+      { name: "Mount Suswa conservancy" },
+      { name: "Suswa ranch resort" },
+    ],
     details:
       "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
   },
@@ -97,6 +169,15 @@ export const allCamps = [
     detailDelay: 500,
     lat: -0.772612,
     lon: 36.4165486,
+    activites: [
+      { name: "Hiking" },
+      { name: "Camping" },
+      { name: "Cave Exploration" },
+      { name: "Manyattas and hot springs" },
+      { name: "Game viewing" },
+      { name: "Mount Suswa conservancy" },
+      { name: "Suswa ranch resort" },
+    ],
     details:
       "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
   },
@@ -108,6 +189,15 @@ export const allCamps = [
     detailDelay: 500,
     lat: -0.772612,
     lon: 36.4165486,
+    activites: [
+      { name: "Hiking" },
+      { name: "Camping" },
+      { name: "Cave Exploration" },
+      { name: "Manyattas and hot springs" },
+      { name: "Game viewing" },
+      { name: "Mount Suswa conservancy" },
+      { name: "Suswa ranch resort" },
+    ],
     details:
       "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
   },
@@ -119,6 +209,15 @@ export const allCamps = [
     detailDelay: 500,
     lat: -0.772612,
     lon: 36.4165486,
+    activites: [
+      { name: "Hiking" },
+      { name: "Camping" },
+      { name: "Cave Exploration" },
+      { name: "Manyattas and hot springs" },
+      { name: "Game viewing" },
+      { name: "Mount Suswa conservancy" },
+      { name: "Suswa ranch resort" },
+    ],
     details:
       "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
   },
@@ -130,6 +229,15 @@ export const allCamps = [
     detailDelay: 500,
     lat: -0.772612,
     lon: 36.4165486,
+    activites: [
+      { name: "Hiking" },
+      { name: "Camping" },
+      { name: "Cave Exploration" },
+      { name: "Manyattas and hot springs" },
+      { name: "Game viewing" },
+      { name: "Mount Suswa conservancy" },
+      { name: "Suswa ranch resort" },
+    ],
     details:
       "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
   },
@@ -141,6 +249,15 @@ export const allCamps = [
     detailDelay: 500,
     lat: -0.772612,
     lon: 36.4165486,
+    activites: [
+      { name: "Hiking" },
+      { name: "Camping" },
+      { name: "Cave Exploration" },
+      { name: "Manyattas and hot springs" },
+      { name: "Game viewing" },
+      { name: "Mount Suswa conservancy" },
+      { name: "Suswa ranch resort" },
+    ],
     details:
       "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
   },
@@ -152,6 +269,15 @@ export const allCamps = [
     detailDelay: 500,
     lat: -0.772612,
     lon: 36.4165486,
+    activites: [
+      { name: "Hiking" },
+      { name: "Camping" },
+      { name: "Cave Exploration" },
+      { name: "Manyattas and hot springs" },
+      { name: "Game viewing" },
+      { name: "Mount Suswa conservancy" },
+      { name: "Suswa ranch resort" },
+    ],
     details:
       "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
   },
@@ -163,6 +289,15 @@ export const allCamps = [
     detailDelay: 500,
     lat: -0.772612,
     lon: 36.4165486,
+    activites: [
+      { name: "Hiking" },
+      { name: "Camping" },
+      { name: "Cave Exploration" },
+      { name: "Manyattas and hot springs" },
+      { name: "Game viewing" },
+      { name: "Mount Suswa conservancy" },
+      { name: "Suswa ranch resort" },
+    ],
     details:
       "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
   },
@@ -174,6 +309,15 @@ export const allCamps = [
     detailDelay: 500,
     lat: -0.772612,
     lon: 36.4165486,
+    activites: [
+      { name: "Hiking" },
+      { name: "Camping" },
+      { name: "Cave Exploration" },
+      { name: "Manyattas and hot springs" },
+      { name: "Game viewing" },
+      { name: "Mount Suswa conservancy" },
+      { name: "Suswa ranch resort" },
+    ],
     details:
       "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
   },
@@ -185,6 +329,15 @@ export const allCamps = [
     detailDelay: 500,
     lat: -0.772612,
     lon: 36.4165486,
+    activites: [
+      { name: "Hiking" },
+      { name: "Camping" },
+      { name: "Cave Exploration" },
+      { name: "Manyattas and hot springs" },
+      { name: "Game viewing" },
+      { name: "Mount Suswa conservancy" },
+      { name: "Suswa ranch resort" },
+    ],
     details:
       "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
   },
@@ -196,6 +349,15 @@ export const allCamps = [
     detailDelay: 500,
     lat: -0.772612,
     lon: 36.4165486,
+    activites: [
+      { name: "Hiking" },
+      { name: "Camping" },
+      { name: "Cave Exploration" },
+      { name: "Manyattas and hot springs" },
+      { name: "Game viewing" },
+      { name: "Mount Suswa conservancy" },
+      { name: "Suswa ranch resort" },
+    ],
     details:
       "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
   },
@@ -207,6 +369,15 @@ export const allCamps = [
     detailDelay: 500,
     lat: -0.772612,
     lon: 36.4165486,
+    activites: [
+      { name: "Hiking" },
+      { name: "Camping" },
+      { name: "Cave Exploration" },
+      { name: "Manyattas and hot springs" },
+      { name: "Game viewing" },
+      { name: "Mount Suswa conservancy" },
+      { name: "Suswa ranch resort" },
+    ],
     details:
       "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
   },
@@ -218,6 +389,15 @@ export const allCamps = [
     detailDelay: 500,
     lat: -0.772612,
     lon: 36.4165486,
+    activites: [
+      { name: "Hiking" },
+      { name: "Camping" },
+      { name: "Cave Exploration" },
+      { name: "Manyattas and hot springs" },
+      { name: "Game viewing" },
+      { name: "Mount Suswa conservancy" },
+      { name: "Suswa ranch resort" },
+    ],
     details:
       "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
   },
