@@ -55,7 +55,7 @@ const CampDetails = (props) => {
           className="fas fa-external-link-alt text-primary fa-lg ms-2"
           style={{ cursor: "pointer" }}
           rel="noreferrer"
-        >""</a>
+        >{""}</a>
       </div>
     </div>
   );
