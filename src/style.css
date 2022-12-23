@@ -44,6 +44,11 @@ a {
   display: block;
 }
 
+.map {
+  height: 450px;
+  width: 100%;
+}
+
 @media only screen and (max-width: 480px) {
   .header-bg {
     height: 200px;
@@ -81,5 +86,10 @@ a {
 
   .desktop-view {
     display: none;
+  }
+
+  .map {
+    height: 300px;
+    width: 100%;
   }
 }

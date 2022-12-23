@@ -34,7 +34,7 @@ const CampDetails = (props) => {
   return (
     <div className="home container-fluid">
       <Navbar />
-      <div style={{ height: "500px", width: "100%" }}>
+      <div className="map">
         <GoogleMapReact
           bootstrapURLKeys={{ key: "AIzaSyBDgj6Va4JpcLr3I8cnL-Gqwd6qOSU7iSM" }}
           defaultCenter={defaultProps.center}
@@ -47,15 +47,26 @@ const CampDetails = (props) => {
           />
         </GoogleMapReact>
       </div>
-      <div>
-        Get directions to {currentCamp.name}
-        <a
-          href={`https://www.google.com/maps/search/?api=1&query=${currentCamp.lat},${currentCamp.lon}`}
-          target="_blank"
-          className="fas fa-external-link-alt text-primary fa-lg ms-2"
-          style={{ cursor: "pointer" }}
-          rel="noreferrer"
-        >{""}</a>
+      <div
+        className=" col-md-12 d-flex justify-content-center"
+        style={{ fontFamily: "Carviar Dreams" }}
+      >
+        <div className="p-2 d-flex justify-content-center align-items-center rounded bg-white col-md-3 shadow">
+          Get directions to {currentCamp.name}
+          <a
+            href={`https://www.google.com/maps/search/?api=1&query=${currentCamp.lat},${currentCamp.lon}`}
+            target="_blank"
+            className="fas fa-external-link-alt text-primary fa-lg ms-2"
+            style={{ cursor: "pointer" }}
+            rel="noreferrer"
+          >
+            {""}
+          </a>
+        </div>
+      </div>
+
+      <div className="bg-white shadow my-3">
+        
       </div>
     </div>
   );
