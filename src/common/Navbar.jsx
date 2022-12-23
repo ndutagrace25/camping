@@ -13,7 +13,7 @@ const Navbar = () => {
           JJ Adventures
         </Link>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler text-white bg-white"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavAltMarkup"
@@ -34,7 +34,7 @@ const Navbar = () => {
               <Link className="nav-link active" aria-current="page" to="/">
                 Home
               </Link>
-              <Link className="nav-link" to="/">
+              <Link className="nav-link" to="/activities">
                 Activities
               </Link>
             </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Home, CampDetails } from "./components";
+import { Home, CampDetails, Activities } from "./components";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -12,6 +12,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/camp-details" exact element={<CampDetails />} />
+        <Route path="/activities" exact element={<Activities />} />
       </Routes>
     </Router>
   );
