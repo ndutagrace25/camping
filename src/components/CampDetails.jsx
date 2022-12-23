@@ -134,7 +134,8 @@ const CampDetails = (props) => {
               <div
                 id="carouselExampleIndicators"
                 className="carousel slide"
-                data-bs-ride="true"
+                data-bs-ride="carousel"
+                data-interval="5000"
               >
                 <div className="carousel-indicators">
                   <button
