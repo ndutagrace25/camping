@@ -46,7 +46,7 @@ const AllCamps = () => {
                     className="btn-info btn fw-bold shadow"
                     to={`/camp-details?id=${item.id}`}
                   >
-                    View Activites and Locations at {item.name}
+                    View Activities and Locations at {item.name}
                   </Link>
                 </div>
               </div>
@@ -70,7 +70,7 @@ const AllCamps = () => {
                       className="btn-info btn fw-bold shadow"
                       to={`/camp-details?id=${item.id}`}
                     >
-                      View Activites and Locations at {item.name}
+                      View Activities and Locations at {item.name}
                     </Link>
                   </div>
                 </div>
@@ -86,7 +86,7 @@ const AllCamps = () => {
                       className="btn-info btn fw-bold shadow"
                       to={`/camp-details?id=${item.id}`}
                     >
-                      View Activites and Locations at {item.name}
+                      View Activities and Locations at {item.name}
                     </Link>
                   </div>
                 </div>

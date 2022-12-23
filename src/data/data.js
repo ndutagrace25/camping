@@ -1,4 +1,4 @@
-import { camp1, Suswa1, Magadi1, naivasha, castle1, abadare } from "../images";
+import { camp1, Suswa1, Magadi1, naivasha, castle1, abadare, geothermal,lakeellis,dragon,kijabe, troll ,kerio, naiberi, rangi, elephant, sleeping,sabuk,koija,lewa,chyulu, mzima} from "../images";
 
 export const allCamps = [
   {
@@ -124,7 +124,7 @@ export const allCamps = [
   {
     name: "Dragons Teeth",
     id: 6,
-    image: camp1,
+    image: dragon,
     titleDelay: 300,
     detailDelay: 500,
     image_one: camp1,
@@ -148,7 +148,7 @@ export const allCamps = [
   {
     name: "Geothermal",
     id: 7,
-    image: camp1,
+    image: geothermal,
     titleDelay: 300,
     detailDelay: 500,
     image_one: camp1,
@@ -172,7 +172,7 @@ export const allCamps = [
   {
     name: "Lake Ellis",
     id: 8,
-    image: camp1,
+    image: lakeellis,
     titleDelay: 300,
     detailDelay: 500,
     image_one: camp1,
@@ -194,9 +194,9 @@ export const allCamps = [
       "Kiboko is a luxury camp located on the shores of Lake Naivasha. There are eight luxury tents in Kiboko Luxury Camp, with four facing the lake, offering you an incredible view of Lake Naivasha. The best thing about this campsite is you get close to nature. Giraffes, waterbucks, and zebras are frequent visitors to the campsite. Kiboko has lots of hippos too, with most of them staying just a few yards away from the tents. You can hear them throughout the night, and you get a chance to watch them during the day from your private veranda. Boat rides are also available and I recommend you take them. The food is also extremely good.",
   },
   {
-    name: "Kijabo Hill",
+    name: "Kijabe Hill",
     id: 9,
-    image: camp1,
+    image: kijabe,
     titleDelay: 300,
     detailDelay: 500,
     image_one: camp1,
@@ -220,7 +220,7 @@ export const allCamps = [
   {
     name: "Troll",
     id: 10,
-    image: camp1,
+    image: troll,
     titleDelay: 300,
     detailDelay: 500,
     image_one: camp1,
@@ -244,7 +244,7 @@ export const allCamps = [
   {
     name: "Kerio Valley",
     id: 11,
-    image: camp1,
+    image: kerio,
     titleDelay: 300,
     detailDelay: 500,
     image_one: camp1,
@@ -268,7 +268,7 @@ export const allCamps = [
   {
     name: "Naiberi River Camp",
     id: 12,
-    image: camp1,
+    image: naiberi,
     titleDelay: 300,
     detailDelay: 500,
     image_one: camp1,
@@ -292,7 +292,7 @@ export const allCamps = [
   {
     name: "Rangi Saba Wild",
     id: 13,
-    image: camp1,
+    image: rangi,
     titleDelay: 300,
     detailDelay: 500,
     image_one: camp1,
@@ -316,7 +316,7 @@ export const allCamps = [
   {
     name: "Elephant Hill",
     id: 14,
-    image: camp1,
+    image: elephant,
     titleDelay: 300,
     detailDelay: 500,
     image_one: camp1,
@@ -340,7 +340,7 @@ export const allCamps = [
   {
     name: "Sleep Warrior",
     id: 15,
-    image: camp1,
+    image: sleeping,
     titleDelay: 300,
     detailDelay: 500,
     image_one: camp1,
@@ -364,7 +364,7 @@ export const allCamps = [
   {
     name: "Sabuk",
     id: 16,
-    image: camp1,
+    image: sabuk,
     titleDelay: 300,
     detailDelay: 500,
     image_one: camp1,
@@ -388,7 +388,7 @@ export const allCamps = [
   {
     name: "Koija Startbeds",
     id: 17,
-    image: camp1,
+    image: koija,
     titleDelay: 300,
     detailDelay: 500,
     image_one: camp1,
@@ -412,7 +412,7 @@ export const allCamps = [
   {
     name: "Lewa Conservancy",
     id: 18,
-    image: camp1,
+    image: lewa,
     titleDelay: 300,
     detailDelay: 500,
     image_one: camp1,
@@ -436,7 +436,7 @@ export const allCamps = [
   {
     name: "Chyulu Hills",
     id: 19,
-    image: camp1,
+    image: chyulu,
     titleDelay: 300,
     detailDelay: 500,
     image_one: camp1,
@@ -460,7 +460,7 @@ export const allCamps = [
   {
     name: "Mzima Springs",
     id: 20,
-    image: camp1,
+    image: mzima,
     titleDelay: 300,
     detailDelay: 500,
     image_one: camp1,

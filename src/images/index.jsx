@@ -1,8 +1,23 @@
 import camp1 from "./camp1.jpeg";
-import Suswa1 from "./Suswa1.jpeg";
+import Suswa1 from "./Suswa1.jpg";
 import Magadi1 from "./Magadi1.jpg";
 import naivasha from "./naivasha.jpg";
 import castle1 from "./castle1.jpeg";
 import abadare from "./abadare.jpeg";
+import geothermal from "./geothermal.jpg";
+import lakeellis from "./lakeellis.jpeg";
+import dragon from "./dragon.jpg";
+import kijabe from "./kijabe.jpeg";
+import naiberi from "./naiberi.jpeg";
+import troll from "./troll.jpeg";
+import kerio from "./kerio.jpeg";
+import rangi from "./rangi.jpeg";
+import elephant from "./elephant.jpg";
+import sleeping from "./sleeping.jpg";
+import sabuk from "./sabuk.jpg";
+import koija from "./koija.jpg";
+import lewa from "./lewa.jpg";
+import chyulu from "./chyulu.jpg";
+import mzima from "./mzima.jpg";
 
-export { camp1, Suswa1,Magadi1,naivasha,castle1,abadare };
+export { camp1, Suswa1,Magadi1,naivasha,castle1,abadare,geothermal, lakeellis,dragon, kijabe, troll,naiberi,kerio,rangi,elephant, sleeping, sabuk,koija,lewa,chyulu,mzima};
