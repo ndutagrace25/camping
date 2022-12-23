@@ -41,7 +41,7 @@ const Activities = () => {
             <Fade delay={item.detailDelay} bottom>
               <div className="col-md-6 pt-2">
                 <div className="d-flex justify-content-center py-3 fw-bold">
-                  Places to Visist for {item.name}
+                  Places to Visit for {item.name}
                 </div>
                 <div className="d-flex justify-content-center">
                   <div>
@@ -81,7 +81,7 @@ const Activities = () => {
               <Fade delay={item.detailDelay} bottom>
                 <div className="col-md-6 pt-2 desktop-view">
                   <div className="d-flex justify-content-center py-3 fw-bold">
-                    Places to Visist for {item.name}
+                    Places to Visit for {item.name}
                   </div>
                   <div className="d-flex justify-content-center">
                     <div>
@@ -113,7 +113,7 @@ const Activities = () => {
               <Fade delay={item.detailDelay} bottom>
                 <div className="col-md-6 pt-2 desktop-view">
                   <div className="d-flex justify-content-center py-3 fw-bold">
-                    Places to Visist for {item.name}
+                    Places to Visit for {item.name}
                   </div>
                   <div className="d-flex justify-content-center">
                     <div>
