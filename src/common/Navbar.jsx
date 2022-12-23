@@ -23,12 +23,13 @@ const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
+
         <div
           className="collapse navbar-collapse"
           id="navbarNavAltMarkup"
           style={{ fontFamily: "Carviar Dreams Bold" }}
         >
-          <div className="ms-5 ps-5">
+          <div className="col-md-12 d-flex  justify-content-end">
             <div className="navbar-nav">
               <Link className="nav-link active" aria-current="page" to="/">
                 Home
