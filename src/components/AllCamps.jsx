@@ -15,7 +15,9 @@ const AllCamps = () => {
             <Link to={`/camp-details?id=${item.id}`}>
               <h5
                 style={{ cursor: "pointer" }}
-                className={item.id === activeId ? titleColor : ""}
+                className={
+                  item.id === activeId ? `${titleColor} fw-bold` : "fw-bold"
+                }
                 onMouseEnter={() => {
                   setTitleColor("text-info");
                   setActiveId(item.id);

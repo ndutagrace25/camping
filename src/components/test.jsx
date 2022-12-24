@@ -9,15 +9,13 @@ const Activities = () => {
   const [activeId, setActiveId] = useState(0);
   const displayCamps = activitiesData.map((item, index) => {
     return (
-      <div className="">
+      <div className="" style={{ fontFamily: "Carviar Dreams" }}>
         <div className="d-flex justify-content-center py-5">
           <Fade delay={item.titleDelay} bottom>
             <Link to={`/camp-details?id=${item.place_id}`}>
               <h5
-                style={{ cursor: "pointer" }}
-                className={
-                  item.id === activeId ? `${titleColor} fw-bold` : "fw-bold"
-                }
+                style={{ fontFamily: "Carviar Dreams Bold", cursor: "pointer" }}
+                className={item.id === activeId ? titleColor : ""}
                 onMouseEnter={() => {
                   setTitleColor("text-info");
                   setActiveId(item.id);
@@ -31,7 +29,7 @@ const Activities = () => {
           </Fade>
         </div>
         <div className="d-flex justify-content-between camp-card">
-          <div className="mobile-view px-2 ">
+          <div className="mobile-view px-2">
             <Fade left delay={400}>
               <img
                 alt={item.name}
@@ -41,9 +39,9 @@ const Activities = () => {
             </Fade>
 
             <Fade delay={item.detailDelay} bottom>
-              <div className="col-md-6 p-3 shadow bg-gray mx-2 mt-2">
-                <div className="d-flex justify-content-center py-3 fw-semibold">
-                  Places to Visit for {item.name}
+              <div className="col-md-6 pt-2">
+                <div className="d-flex justify-content-center py-3 fw-bold">
+                  Places to Visist for {item.name}
                 </div>
                 <div className="d-flex justify-content-center">
                   <div>
@@ -81,32 +79,30 @@ const Activities = () => {
               </Fade>
 
               <Fade delay={item.detailDelay} bottom>
-                <div className="col-md-6 desktop-view d-flex justify-content-center">
-                  <div className="shadow bg-gray p-3 rounded col-md-6 desktop-view">
-                    <div className="d-flex justify-content-center py-3 fw-semibold">
-                      Places to Visit for {item.name}
-                    </div>
-                    <div className="d-flex justify-content-center">
-                      <div>
-                        {item.places.map((place, index) => {
-                          return (
-                            <div
-                              key={index}
-                              style={{ cursor: "pointer" }}
-                              className="p-2"
-                            >
-                              <span>
-                                <i className="fa-solid fa-gem me-2 text-info"></i>
-                              </span>
-                              {place.name}
-                              <Link
-                                to={`/camp-details?id=${place.place_id}`}
-                                className="fas fa-external-link-alt text-primary fa-lg ms-2"
-                              />
-                            </div>
-                          );
-                        })}
-                      </div>
+                <div className="col-md-6 pt-2 desktop-view">
+                  <div className="d-flex justify-content-center py-3 fw-bold">
+                    Places to Visist for {item.name}
+                  </div>
+                  <div className="d-flex justify-content-center">
+                    <div>
+                      {item.places.map((place, index) => {
+                        return (
+                          <div
+                            key={index}
+                            style={{ cursor: "pointer" }}
+                            className="p-2"
+                          >
+                            <span>
+                              <i className="fa-solid fa-gem me-2 text-info"></i>
+                            </span>
+                            {place.name}
+                            <Link
+                              to={`/camp-details?id=${place.place_id}`}
+                              className="fas fa-external-link-alt text-primary fa-lg ms-2"
+                            />
+                          </div>
+                        );
+                      })}
                     </div>
                   </div>
                 </div>
@@ -115,32 +111,30 @@ const Activities = () => {
           ) : (
             <>
               <Fade delay={item.detailDelay} bottom>
-                <div className="col-md-6 pt-2 desktop-view d-flex justify-content-center">
-                  <div className="shadow bg-gray p-3 rounded col-md-6 desktop-view">
-                    <div className="d-flex justify-content-center py-3 fw-semibold">
-                      Places to Visit for {item.name}
-                    </div>
-                    <div className="d-flex justify-content-center">
-                      <div>
-                        {item.places.map((place, index) => {
-                          return (
-                            <div
-                              key={index}
-                              style={{ cursor: "pointer" }}
-                              className="p-2"
-                            >
-                              <span>
-                                <i className="fa-solid fa-gem me-2 text-info"></i>
-                              </span>
-                              {place.name}
-                              <Link
-                                to={`/camp-details?id=${place.place_id}`}
-                                className="fas fa-external-link-alt text-primary fa-lg ms-2"
-                              />
-                            </div>
-                          );
-                        })}
-                      </div>
+                <div className="col-md-6 pt-2 desktop-view">
+                  <div className="d-flex justify-content-center py-3 fw-bold">
+                    Places to Visist for {item.name}
+                  </div>
+                  <div className="d-flex justify-content-center">
+                    <div>
+                      {item.places.map((place, index) => {
+                        return (
+                          <div
+                            key={index}
+                            style={{ cursor: "pointer" }}
+                            className="p-2"
+                          >
+                            <span>
+                              <i className="fa-solid fa-gem me-2 text-info"></i>
+                            </span>
+                            {place.name}
+                            <Link
+                              to={`/camp-details?id=${place.place_id}`}
+                              className="fas fa-external-link-alt text-primary fa-lg ms-2"
+                            />
+                          </div>
+                        );
+                      })}
                     </div>
                   </div>
                 </div>

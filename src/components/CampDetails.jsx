@@ -78,7 +78,7 @@ const CampDetails = (props) => {
           </div>
         </div>
         <div className="d-flex justify-content-center">
-          <h5>{currentCamp.name}</h5>
+          <h5 className="fw-bold">{currentCamp.name}</h5>
         </div>
         <div className="d-flex flex-column pt-3 col-md-12 activity-mobile justify-content-center align-items-center">
           <div className="col-md-12 desktop-view">
