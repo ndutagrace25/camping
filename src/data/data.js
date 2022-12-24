@@ -1,4 +1,6 @@
-import { camp1, Suswa1, Magadi1, naivasha, castle1, abadare, geothermal,lakeellis,dragon,kijabe, troll ,kerio, naiberi, rangi, elephant, sleeping,sabuk,koija,lewa,chyulu, mzima} from "../images";
+import { camp1, Suswa1, Magadi1, naivasha, castle1, abadare, geothermal,lakeellis,dragon,kijabe, troll ,
+  kerio, naiberi, rangi, elephant, sleeping,sabuk,koija,lewa,chyulu,mzima, Suswa2,suswa3, suswa4, suswa5,magadi1,magadi2
+,magadi3,magadi4,naivasha1,naivasha2,naivasha3,naivasha4,castle2,castle3,castle4,castle5} from "../images";
 
 export const allCamps = [
   {
@@ -7,10 +9,10 @@ export const allCamps = [
     image: Suswa1,
     titleDelay: 300,
     detailDelay: 500,
-    image_one: camp1,
-    image_two: camp1,
-    image_three: camp1,
-    image_four: camp1,
+    image_one: Suswa2,
+    image_two: suswa3,
+    image_three: suswa4,
+    image_four: suswa5,
     lat: -1.176141,
     lon: 36.3401126,
     activites: [
@@ -31,10 +33,10 @@ export const allCamps = [
     image: Magadi1,
     titleDelay: 300,
     detailDelay: 500,
-    image_one: camp1,
-    image_two: camp1,
-    image_three: camp1,
-    image_four: camp1,
+    image_one: magadi1,
+    image_two: magadi2,
+    image_three: magadi3,
+    image_four: magadi4,
     lat: -1.8640268,
     lon: 36.1228922,
    activites: [
@@ -55,10 +57,10 @@ export const allCamps = [
     image: naivasha,
     titleDelay: 300,
     detailDelay: 500,
-    image_one: camp1,
-    image_two: camp1,
-    image_three: camp1,
-    image_four: camp1,
+    image_one: naivasha1,
+    image_two: naivasha2,
+    image_three: naivasha3,
+    image_four: naivasha4,
     lat: -0.7524088,
     lon: 36.243291,
    activites: [
@@ -79,10 +81,10 @@ export const allCamps = [
     image: castle1,
     titleDelay: 300,
     detailDelay: 500,
-    image_one: camp1,
-    image_two: camp1,
-    image_three: camp1,
-    image_four: camp1,
+    image_one: castle2,
+    image_two: castle3,
+    image_three: castle3,
+    image_four: castle2,
     lat: -0.3946798,
     lon: 37.302285,
    activites: [
