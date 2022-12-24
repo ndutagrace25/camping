@@ -35,6 +35,7 @@ import castle2 from "./castle2.jpeg";
 import castle3 from "./castle3.jpeg";
 import castle4 from "./castle4.jpg";
 import castle5 from "./castle5.jpeg";
+import day1 from "./day1.jpg";
 
 
 
@@ -47,4 +48,4 @@ import castle5 from "./castle5.jpeg";
 
 export { camp1, Suswa1,Magadi1,naivasha,castle1,abadare,geothermal, lakeellis,dragon, kijabe, troll,naiberi,kerio,rangi,elephant, 
     sleeping, sabuk,koija,lewa,chyulu,mzima ,Suswa2 ,suswa3 ,suswa4, 
-    suswa5 , magadi1,magadi2,magadi3,magadi4, naivasha1,naivasha2,naivasha3,naivasha4,castle2,castle3,castle4,castle5};
+    suswa5 , magadi1,magadi2,magadi3,magadi4, naivasha1,naivasha2,naivasha3,naivasha4,castle2,castle3,castle4,castle5,day1};

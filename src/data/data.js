@@ -1,6 +1,6 @@
 import { camp1, Suswa1, Magadi1, naivasha, castle1, abadare, geothermal,lakeellis,dragon,kijabe, troll ,
   kerio, naiberi, rangi, elephant, sleeping,sabuk,koija,lewa,chyulu,mzima, Suswa2,suswa3, suswa4, suswa5,magadi1,magadi2
-,magadi3,magadi4,naivasha1,naivasha2,naivasha3,naivasha4,castle2,castle3,castle4,castle5} from "../images";
+,magadi3,magadi4,naivasha1,naivasha2,naivasha3,naivasha4,castle2,castle3,castle4,castle5,} from "../images";
 
 export const allCamps = [
   {

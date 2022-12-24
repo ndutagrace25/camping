@@ -1,4 +1,5 @@
-import { camp1 } from "../images";
+import { camp1,day1 } from "../images";
+
 
 export const activitiesData = [
   {
@@ -8,7 +9,7 @@ export const activitiesData = [
       { name: "Lake Magadi", place_id: 2 },
       { name: "Lake Naivasha", place_id: 3 },
     ],
-    image: camp1,
+    image: day1,
     titleDelay: 300,
     detailDelay: 500,
   },
