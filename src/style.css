@@ -6,6 +6,10 @@ body {
   display: none;
 }
 
+nav {
+  background-color: #3e8914 !important;
+}
+
 a {
   color: inherit !important;
   text-decoration: none !important;
@@ -13,7 +17,7 @@ a {
 
 .header-bg {
   background: url("./images/Homepage.jpeg") no-repeat;
-  height: 450px;
+  height: 750px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -23,8 +27,10 @@ a {
 }
 
 .header-text {
-  font-size: 35px;
-  margin-bottom: 25px;
+  font-size: 40px;
+  font-weight: 1000 !important;
+  /* margin-bottom: 25px; */
+  margin-top: 140px !important;
 }
 
 .bg-gray {
@@ -50,25 +56,28 @@ a {
 }
 
 .activity-image {
-  width: 350px;
+  width: 620px;
   margin-top: 20px;
+  height: 400px;
+  padding-left: 40px;
 }
 
 .zoom {
   transition: transform 0.2s;
 }
 .zoom:hover {
-  transform: scale(2.25);
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5);
-  z-index: 5;
+  transform: scale(1.2);
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+  z-index: 2;
   position: relative;
 }
 
 @media only screen and (max-width: 480px) {
   .header-bg {
     height: 200px;
+    padding: 0 !important;
   }
   .home {
     width: 100vw !important;
@@ -78,7 +87,10 @@ a {
   }
   .header-text {
     font-size: 18px;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
+    margin-top: 10px !important;
+    padding-right: 20px !important;
+    align-self: flex-end !important;
   }
   .intro-text {
     font-size: 14px;

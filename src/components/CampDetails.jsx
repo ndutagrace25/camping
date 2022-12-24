@@ -88,19 +88,19 @@ const CampDetails = (props) => {
             {currentCamp.name}
           </h5>
         </div>
-        <div className="d-flex justify-content-bentween pt-3 col-md-12 activity-mobile">
-          <div className="col-md-6 desktop-view">
-            <div className="d-flex justify-content-between flex-wrap ">
-              <div className="activity-image zoom">
+        <div className="d-flex flex-column pt-3 col-md-12 activity-mobile justify-content-center align-items-center">
+          <div className="col-md-12 desktop-view">
+            <div className="d-flex justify-content-center flex-wrap">
+              <div className="activity-image zoom ">
                 <Fade left delay={500}>
                   <img
                     alt="imagecamp"
                     src={currentCamp.image_one}
-                    className="img-fluid  rounded"
+                    className="img-fluid  rounded "
                   />
                 </Fade>
               </div>
-              <div className="activity-image zoom">
+              <div className="activity-image zoom ">
                 <Fade left delay={300}>
                   <img
                     alt="imagecamp"
@@ -109,7 +109,7 @@ const CampDetails = (props) => {
                   />
                 </Fade>
               </div>
-              <div className="activity-image zoom">
+              <div className="activity-image zoom ">
                 <Fade left delay={500}>
                   <img
                     alt="imagecamp"
@@ -222,12 +222,12 @@ const CampDetails = (props) => {
               </div>
             </Fade>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 mt-3">
             <div className="d-flex justify-content-center py-3 fw-bold">
               Activities At {currentCamp.name}
             </div>
             <div className="d-flex justify-content-center flex-column align-items-center">
-              {activities}
+              <div>{activities}</div>
             </div>
           </div>
         </div>
