@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+
+  console.log("width:"+window.innerWidth)
+  console.log("height:"+window.innerHeight)
   return (
     <nav className="navbar navbar-expand-lg text-white">
       <div className="container">

@@ -134,3 +134,9 @@ a {
     height: 180px;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .title-download {
+    font-size: 1.75rem;
+  }
+}
