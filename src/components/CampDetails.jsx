@@ -222,7 +222,7 @@ const CampDetails = (props) => {
               </div>
             </Fade>
           </div>
-          <div className="col-md-6 mt-3">
+          <div className="col-md-6 mt-3 shadow p-3 bg-gray">
             <div className="d-flex justify-content-center py-3 fw-bold">
               Activities At {currentCamp.name}
             </div>
