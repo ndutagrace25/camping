@@ -32,8 +32,8 @@ const Navbar = () => {
           id="navbarNavAltMarkup"
           style={{ fontFamily: "Carviar Dreams Bold" }}
         >
-          <div className="col-md-12 d-flex  justify-content-end">
-            <div className="navbar-nav">
+          <div className="col-md-12 d-flex  justify-content-end pe-5 me-5">
+            <div className="navbar-nav pe-5 me-5">
               <Link className="nav-link active" aria-current="page" to="/">
                 Home
               </Link>
