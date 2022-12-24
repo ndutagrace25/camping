@@ -91,7 +91,7 @@ const CampDetails = (props) => {
         <div className="d-flex flex-column pt-3 col-md-12 activity-mobile justify-content-center align-items-center">
           <div className="col-md-12 desktop-view">
             <div className="d-flex justify-content-center flex-wrap">
-              <div className="activity-image">
+              <div className="activity-image ">
                 <Fade left delay={500}>
                   <img
                     alt="imagecamp"
@@ -100,7 +100,7 @@ const CampDetails = (props) => {
                   />
                 </Fade>
               </div>
-              <div className="activity-image">
+              <div className="activity-image ">
                 <Fade left delay={300}>
                   <img
                     alt="imagecamp"
@@ -109,7 +109,7 @@ const CampDetails = (props) => {
                   />
                 </Fade>
               </div>
-              <div className="activity-image">
+              <div className="activity-image ">
                 <Fade left delay={500}>
                   <img
                     alt="imagecamp"
@@ -118,7 +118,7 @@ const CampDetails = (props) => {
                   />
                 </Fade>
               </div>
-              <div className="activity-image>
+              <div className="activity-image">
                 <Fade left delay={500}>
                   <img
                     alt="imagecamp"
