@@ -2,17 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-
-  console.log("width:"+window.innerWidth)
-  console.log("height:"+window.innerHeight)
+  console.log("width:" + window.innerWidth);
+  console.log("height:" + window.innerHeight);
   return (
     <nav className="navbar navbar-expand-lg text-white">
       <div className="container">
-        <Link
-          className="navbar-brand"
-          to="/"
-          style={{ fontFamily: "Carviar Dreams Bold" }}
-        >
+        <Link className="navbar-brand" to="/">
           JJ Adventures
         </Link>
         <button
@@ -27,14 +22,14 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div
-          className="collapse navbar-collapse"
-          id="navbarNavAltMarkup"
-          style={{ fontFamily: "Carviar Dreams Bold" }}
-        >
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="col-md-12 d-flex  justify-content-end pe-5 me-5">
             <div className="navbar-nav pe-5 me-5">
-              <Link className="nav-link active pe-5 me-5" aria-current="page" to="/">
+              <Link
+                className="nav-link active pe-5 me-5"
+                aria-current="page"
+                to="/"
+              >
                 Home
               </Link>
               <Link className="nav-link" to="/activities">

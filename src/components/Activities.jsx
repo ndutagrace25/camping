@@ -9,12 +9,12 @@ const Activities = () => {
   const [activeId, setActiveId] = useState(0);
   const displayCamps = activitiesData.map((item, index) => {
     return (
-      <div className="" style={{ fontFamily: "Carviar Dreams" }}>
+      <div className="">
         <div className="d-flex justify-content-center py-5">
           <Fade delay={item.titleDelay} bottom>
             <Link to={`/camp-details?id=${item.place_id}`}>
               <h5
-                style={{ fontFamily: "Carviar Dreams Bold", cursor: "pointer" }}
+                style={{ cursor: "pointer" }}
                 className={item.id === activeId ? titleColor : ""}
                 onMouseEnter={() => {
                   setTitleColor("text-info");

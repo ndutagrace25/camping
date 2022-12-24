@@ -5,10 +5,7 @@ const Header = () => {
   return (
     <section className="header-bg d-flex justify-content-end pe-5 pt-5">
       <div className="text-white fw-bold ">
-        <div
-          style={{ fontFamily: "Carviar Dreams Bold" }}
-          className="header-text"
-        >
+        <div className="header-text">
           <Bounce delay={300}>
             <span className="">20 Best Adventurous Places in Kenya</span>
           </Bounce>

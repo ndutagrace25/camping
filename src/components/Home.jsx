@@ -7,10 +7,7 @@ const Home = () => {
     <div className="container-fluid home">
       <Navbar />
       <Header />
-      <div
-        className="shadow p-3 text-black bg-white intro fw-normal intro-text"
-        style={{ fontFamily: "Carviar Dreams" }}
-      >
+      <div className="shadow p-3 bg-white intro intro-text">
         <Intro />
         <AllCamps />
       </div>

@@ -62,14 +62,8 @@ const CampDetails = (props) => {
         </GoogleMapReact>
       </div>
 
-      <div
-        className="bg-white shadow p-3 rounded"
-        style={{ fontFamily: "Carviar Dreams" }}
-      >
-        <div
-          className=" col-md-12 d-flex justify-content-center"
-          style={{ fontFamily: "Carviar Dreams" }}
-        >
+      <div className="bg-white shadow p-3 rounded">
+        <div className=" col-md-12 d-flex justify-content-center">
           <div className="pb-3 d-flex justify-content-center align-items-center  col-md-3 ">
             Get directions to {currentCamp.name}
             <a
@@ -84,9 +78,7 @@ const CampDetails = (props) => {
           </div>
         </div>
         <div className="d-flex justify-content-center">
-          <h5 style={{ fontFamily: "Carviar Dreams Bold" }}>
-            {currentCamp.name}
-          </h5>
+          <h5>{currentCamp.name}</h5>
         </div>
         <div className="d-flex flex-column pt-3 col-md-12 activity-mobile justify-content-center align-items-center">
           <div className="col-md-12 desktop-view">

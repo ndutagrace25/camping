@@ -14,7 +14,7 @@ const AllCamps = () => {
           <Fade delay={item.titleDelay} bottom>
             <Link to={`/camp-details?id=${item.id}`}>
               <h5
-                style={{ fontFamily: "Carviar Dreams Bold", cursor: "pointer" }}
+                style={{ cursor: "pointer" }}
                 className={item.id === activeId ? titleColor : ""}
                 onMouseEnter={() => {
                   setTitleColor("text-info");
@@ -43,7 +43,7 @@ const AllCamps = () => {
                 <div>{item.details}</div>
                 <div className="mt-3 d-flex justify-content-center">
                   <Link
-                    className="btn-info btn fw-bold shadow"
+                    className="btn-info btn shadow"
                     to={`/camp-details?id=${item.id}`}
                   >
                     View Activities and Locations at {item.name}
@@ -67,7 +67,7 @@ const AllCamps = () => {
                   <div>{item.details}</div>
                   <div className="mt-3 d-flex justify-content-center">
                     <Link
-                      className="btn-info btn fw-bold shadow"
+                      className="btn-info btn shadow"
                       to={`/camp-details?id=${item.id}`}
                     >
                       View Activities and Locations at {item.name}
@@ -83,7 +83,7 @@ const AllCamps = () => {
                   <div>{item.details}</div>
                   <div className="mt-3 d-flex justify-content-center">
                     <Link
-                      className="btn-info btn fw-bold shadow"
+                      className="btn-info btn shadow"
                       to={`/camp-details?id=${item.id}`}
                     >
                       View Activities and Locations at {item.name}
@@ -105,7 +105,7 @@ const AllCamps = () => {
     );
   });
   return (
-    <section style={{ fontFamily: "Carviar Dreams" }}>
+    <section>
       <div>{displayCamps}</div>
     </section>
   );
