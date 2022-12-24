@@ -79,30 +79,32 @@ const Activities = () => {
               </Fade>
 
               <Fade delay={item.detailDelay} bottom>
-                <div className="col-md-6 pt-2 desktop-view shadow bg-gray p-3 rounded">
-                  <div className="d-flex justify-content-center py-3 fw-bold">
-                    Places to Visit for {item.name}
-                  </div>
-                  <div className="d-flex justify-content-center">
-                    <div>
-                      {item.places.map((place, index) => {
-                        return (
-                          <div
-                            key={index}
-                            style={{ cursor: "pointer" }}
-                            className="p-2"
-                          >
-                            <span>
-                              <i className="fa-solid fa-gem me-2 text-info"></i>
-                            </span>
-                            {place.name}
-                            <Link
-                              to={`/camp-details?id=${place.place_id}`}
-                              className="fas fa-external-link-alt text-primary fa-lg ms-2"
-                            />
-                          </div>
-                        );
-                      })}
+                <div className="col-md-6 desktop-view d-flex justify-content-center">
+                  <div className="shadow bg-gray p-3 rounded col-md-6">
+                    <div className="fw-bold d-flex justify-content-center py-3">
+                      Places to Visit for {item.name}
+                    </div>
+                    <div className="d-flex justify-content-center">
+                      <div>
+                        {item.places.map((place, index) => {
+                          return (
+                            <div
+                              key={index}
+                              style={{ cursor: "pointer" }}
+                              className="p-2"
+                            >
+                              <span>
+                                <i className="fa-solid fa-gem me-2 text-info"></i>
+                              </span>
+                              {place.name}
+                              <Link
+                                to={`/camp-details?id=${place.place_id}`}
+                                className="fas fa-external-link-alt text-primary fa-lg ms-2"
+                              />
+                            </div>
+                          );
+                        })}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -111,30 +113,32 @@ const Activities = () => {
           ) : (
             <>
               <Fade delay={item.detailDelay} bottom>
-                <div className="col-md-6 pt-2 desktop-view bg-gray p-3 shadow rounded">
-                  <div className="d-flex justify-content-center py-3 fw-bold">
-                    Places to Visit for {item.name}
-                  </div>
-                  <div className="d-flex justify-content-center">
-                    <div>
-                      {item.places.map((place, index) => {
-                        return (
-                          <div
-                            key={index}
-                            style={{ cursor: "pointer" }}
-                            className="p-2"
-                          >
-                            <span>
-                              <i className="fa-solid fa-gem me-2 text-info"></i>
-                            </span>
-                            {place.name}
-                            <Link
-                              to={`/camp-details?id=${place.place_id}`}
-                              className="fas fa-external-link-alt text-primary fa-lg ms-2"
-                            />
-                          </div>
-                        );
-                      })}
+                <div className="col-md-6 pt-2 desktop-view d-flex justify-content-center">
+                  <div className="shadow bg-gray p-3 rounded col-md-6">
+                    <div className="d-flex justify-content-center py-3 fw-bold">
+                      Places to Visit for {item.name}
+                    </div>
+                    <div className="d-flex justify-content-center">
+                      <div>
+                        {item.places.map((place, index) => {
+                          return (
+                            <div
+                              key={index}
+                              style={{ cursor: "pointer" }}
+                              className="p-2"
+                            >
+                              <span>
+                                <i className="fa-solid fa-gem me-2 text-info"></i>
+                              </span>
+                              {place.name}
+                              <Link
+                                to={`/camp-details?id=${place.place_id}`}
+                                className="fas fa-external-link-alt text-primary fa-lg ms-2"
+                              />
+                            </div>
+                          );
+                        })}
+                      </div>
                     </div>
                   </div>
                 </div>
