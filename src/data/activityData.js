@@ -1,13 +1,12 @@
-import { camp1,day1 } from "../images";
-
+import { camp1, day1 } from "../images";
 
 export const activitiesData = [
   {
     id: 1,
     name: "Day Tour",
     places: [
-      { name: "Lake Magadi", place_id: 2 },
-      { name: "Lake Naivasha", place_id: 3 },
+      { name: "Limuru", place_id: 21 },
+      { name: "Kereita", place_id: 22 },
     ],
     image: day1,
     titleDelay: 300,

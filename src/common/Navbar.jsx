@@ -5,7 +5,7 @@ const Navbar = () => {
   console.log("width:" + window.innerWidth);
   console.log("height:" + window.innerHeight);
   return (
-    <nav className="navbar navbar-expand-lg text-white">
+    <nav className="navbar navbar-expand-lg text-white fw-bold">
       <div className="container">
         <Link className="navbar-brand" to="/">
           JJ Adventures
