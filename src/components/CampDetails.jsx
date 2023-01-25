@@ -36,7 +36,6 @@ const CampDetails = (props) => {
 
   const AnyReactComponent = ({ text }) => (
     <div
-      onClick={() => alert("Hey there")}
       className="p-3 fw-bold"
       style={{ fontFamily: "Carviar Dreams", fontSize: "12px" }}
     >
