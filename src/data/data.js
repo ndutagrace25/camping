@@ -1,6 +1,40 @@
-import { camp1, Suswa1, Magadi1, naivasha, castle1, abadare, geothermal,lakeellis,dragon,kijabe, troll ,
-  kerio, naiberi, rangi, elephant, sleeping,sabuk,koija,lewa,chyulu,mzima, Suswa2,suswa3, suswa4, suswa5,magadi1,magadi2
-,magadi3,magadi4,naivasha1,naivasha2,naivasha3,naivasha4,castle2,castle3,castle4,castle5,} from "../images";
+import {
+  camp1,
+  Suswa1,
+  Magadi1,
+  naivasha,
+  castle1,
+  abadare,
+  geothermal,
+  lakeellis,
+  dragon,
+  kijabe,
+  troll,
+  kerio,
+  naiberi,
+  rangi,
+  elephant,
+  sleeping,
+  sabuk,
+  koija,
+  lewa,
+  chyulu,
+  mzima,
+  Suswa2,
+  suswa3,
+  suswa4,
+  suswa5,
+  magadi1,
+  magadi2,
+  magadi3,
+  magadi4,
+  naivasha1,
+  naivasha2,
+  naivasha3,
+  naivasha4,
+  castle2,
+  castle3,
+} from "../images";
 
 export const allCamps = [
   {
@@ -39,7 +73,7 @@ export const allCamps = [
     image_four: magadi4,
     lat: -1.8640268,
     lon: 36.1228922,
-   activites: [
+    activites: [
       { name: "Hiking", delay: 200 },
       { name: "Camping", delay: 300 },
       { name: "Cave Exploration", delay: 400 },
@@ -63,7 +97,7 @@ export const allCamps = [
     image_four: naivasha4,
     lat: -0.7524088,
     lon: 36.243291,
-   activites: [
+    activites: [
       { name: "Hiking", delay: 200 },
       { name: "Camping", delay: 300 },
       { name: "Cave Exploration", delay: 400 },
@@ -87,7 +121,7 @@ export const allCamps = [
     image_four: castle2,
     lat: -0.3946798,
     lon: 37.302285,
-   activites: [
+    activites: [
       { name: "Hiking", delay: 200 },
       { name: "Camping", delay: 300 },
       { name: "Cave Exploration", delay: 400 },
@@ -111,7 +145,7 @@ export const allCamps = [
     image_four: camp1,
     lat: -0.3411642,
     lon: 36.8430429,
-   activites: [
+    activites: [
       { name: "Hiking", delay: 200 },
       { name: "Camping", delay: 300 },
       { name: "Cave Exploration", delay: 400 },
@@ -135,7 +169,7 @@ export const allCamps = [
     image_four: camp1,
     lat: -0.2375483,
     lon: 36.5751833,
-   activites: [
+    activites: [
       { name: "Hiking", delay: 200 },
       { name: "Camping", delay: 300 },
       { name: "Cave Exploration", delay: 400 },
@@ -159,7 +193,7 @@ export const allCamps = [
     image_four: camp1,
     lat: -0.2375454,
     lon: 36.3300049,
-   activites: [
+    activites: [
       { name: "Hiking", delay: 200 },
       { name: "Camping", delay: 300 },
       { name: "Cave Exploration", delay: 400 },
@@ -183,7 +217,7 @@ export const allCamps = [
     image_four: camp1,
     lat: -0.1249986,
     lon: 37.3981928,
-   activites: [
+    activites: [
       { name: "Hiking", delay: 200 },
       { name: "Camping", delay: 300 },
       { name: "Cave Exploration", delay: 400 },
@@ -207,7 +241,7 @@ export const allCamps = [
     image_four: camp1,
     lat: -0.772612,
     lon: 36.4165486,
-   activites: [
+    activites: [
       { name: "Hiking", delay: 200 },
       { name: "Camping", delay: 300 },
       { name: "Cave Exploration", delay: 400 },
@@ -231,7 +265,7 @@ export const allCamps = [
     image_four: camp1,
     lat: -0.772612,
     lon: 36.4165486,
-   activites: [
+    activites: [
       { name: "Hiking", delay: 200 },
       { name: "Camping", delay: 300 },
       { name: "Cave Exploration", delay: 400 },
@@ -255,7 +289,7 @@ export const allCamps = [
     image_four: camp1,
     lat: 0.7978294,
     lon: 33.6965962,
-   activites: [
+    activites: [
       { name: "Hiking", delay: 200 },
       { name: "Camping", delay: 300 },
       { name: "Cave Exploration", delay: 400 },
@@ -279,7 +313,7 @@ export const allCamps = [
     image_four: camp1,
     lat: 0.4485037,
     lon: 35.4197394,
-   activites: [
+    activites: [
       { name: "Hiking", delay: 200 },
       { name: "Camping", delay: 300 },
       { name: "Cave Exploration", delay: 400 },
@@ -303,7 +337,7 @@ export const allCamps = [
     image_four: camp1,
     lat: -1.5812382,
     lon: 36.3304493,
-   activites: [
+    activites: [
       { name: "Hiking", delay: 200 },
       { name: "Camping", delay: 300 },
       { name: "Cave Exploration", delay: 400 },
@@ -327,7 +361,7 @@ export const allCamps = [
     image_four: camp1,
     lat: -0.6920546,
     lon: 36.6473215,
-   activites: [
+    activites: [
       { name: "Hiking", delay: 200 },
       { name: "Camping", delay: 300 },
       { name: "Cave Exploration", delay: 400 },
@@ -351,7 +385,7 @@ export const allCamps = [
     image_four: camp1,
     lat: -0.5160899,
     lon: 36.2208078,
-   activites: [
+    activites: [
       { name: "Hiking", delay: 200 },
       { name: "Camping", delay: 300 },
       { name: "Cave Exploration", delay: 400 },
@@ -375,7 +409,7 @@ export const allCamps = [
     image_four: camp1,
     lat: 0.6106419,
     lon: 36.8787394,
-   activites: [
+    activites: [
       { name: "Hiking", delay: 200 },
       { name: "Camping", delay: 300 },
       { name: "Cave Exploration", delay: 400 },
@@ -399,7 +433,7 @@ export const allCamps = [
     image_four: camp1,
     lat: 0.5535625,
     lon: 36.8584988,
-   activites: [
+    activites: [
       { name: "Hiking", delay: 200 },
       { name: "Camping", delay: 300 },
       { name: "Cave Exploration", delay: 400 },
@@ -423,7 +457,7 @@ export const allCamps = [
     image_four: camp1,
     lat: 0.2529318,
     lon: 37.3539085,
-   activites: [
+    activites: [
       { name: "Hiking", delay: 200 },
       { name: "Camping", delay: 300 },
       { name: "Cave Exploration", delay: 400 },
@@ -447,7 +481,7 @@ export const allCamps = [
     image_four: camp1,
     lat: -2.4287095,
     lon: 37.6953348,
-   activites: [
+    activites: [
       { name: "Hiking", delay: 200 },
       { name: "Camping", delay: 300 },
       { name: "Cave Exploration", delay: 400 },
@@ -471,7 +505,7 @@ export const allCamps = [
     image_four: camp1,
     lat: -2.9499999,
     lon: 37.7412452,
-   activites: [
+    activites: [
       { name: "Hiking", delay: 200 },
       { name: "Camping", delay: 300 },
       { name: "Cave Exploration", delay: 400 },
@@ -495,7 +529,7 @@ export const allCamps = [
     image_four: camp1,
     lat: -1.1076136,
     lon: 36.6393989,
-   activites: [
+    activites: [
       { name: "Hiking", delay: 200 },
       { name: "Camping", delay: 300 },
       { name: "Cave Exploration", delay: 400 },
@@ -519,7 +553,7 @@ export const allCamps = [
     image_four: camp1,
     lat: -0.9573989,
     lon: 36.65237,
-   activites: [
+    activites: [
       { name: "Hiking", delay: 200 },
       { name: "Camping", delay: 300 },
       { name: "Cave Exploration", delay: 400 },

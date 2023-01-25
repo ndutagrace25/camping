@@ -10,7 +10,6 @@
 
 # production
 /build
-build.zip
 
 # misc
 .DS_Store
@@ -18,6 +17,7 @@ build.zip
 .env.development.local
 .env.test.local
 .env.production.local
+build.zip
 
 npm-debug.log*
 yarn-debug.log*

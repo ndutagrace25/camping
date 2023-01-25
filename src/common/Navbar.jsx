@@ -32,7 +32,7 @@ const Navbar = () => {
               >
                 Home
               </Link>
-              <Link className="nav-link" to="/activities">
+              <Link className="nav-link pe-5 me-5" to="/activities">
                 Activities
               </Link>
               <Link className="nav-link" to="/my-map">

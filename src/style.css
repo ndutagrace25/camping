@@ -23,6 +23,11 @@ a {
   text-decoration: none !important;
 }
 
+.iframe-size {
+  height: 70vh;
+  width: 95vw;
+}
+
 .header-bg {
   background: url("./images/Homepage.jpeg") no-repeat;
   height: 750px;
@@ -140,6 +145,10 @@ a {
     padding-left: 30px;
     padding-right: 30px;
     height: 180px;
+  }
+  .iframe-size {
+    height: 50vh;
+    width: 95vw;
   }
 }
 
